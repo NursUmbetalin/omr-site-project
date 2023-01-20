@@ -1,0 +1,131 @@
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+.button_main {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  background: #1f7cff;
+  border-radius: 50px;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+}
+
+.header {
+  padding: 8px 0;
+}
+.header .line_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .line_row .logo {
+  display: block;
+  width: 155px;
+  height: 60px;
+}
+.header .line_row .links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.header .line_row .links li a {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #070f18;
+  margin-right: 32px;
+  text-decoration: none;
+}
+.header .line_row .button_row .button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #070f18;
+  background: #f5f6fb;
+  border-radius: 50px;
+  padding: 8px 16px;
+  border: none;
+  margin-left: 16px;
+}
+
+.main_block {
+  padding: 80px 0;
+  background-color: #4b4a4a;
+  background-image: url("../images/foto.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+}
+.main_info {
+  width: 750px;
+}
+.main_block h1 {
+  font-weight: 700;
+  font-size: 70px;
+  color: #ffffff;
+  margin: 0 0 16px;
+  line-height: 1;
+}
+.main_block p {
+  font-weight: 400;
+  font-size: 26px;
+  color: #ffffff;
+  margin: 0 0 32px;
+}
+
+.main_block .dots {
+  position: absolute;
+  bottom: 24px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main_block .dots span {
+  margin-right: 10px;
+  border-radius: 50%;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ffffff;
+}
+.main_block .dots span:last-child {
+  margin-right: 0;
+}
+.main_block .dots span.active {
+  background-color: #ffffff;
+}
+
+.main_block .arrow .left {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  left: 24px;
+}
+.main_block .arrow .right {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  right: 24px;
+}
